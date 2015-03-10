@@ -1,0 +1,2 @@
+# opsmarter
+This a revamp of a tool originally created by Nathan M. and Modified by Michaell M. and my partner Allen. This tool was created to make navigating between two ticketing systems easier and more productive. All URLs in the code are proprietary and require either the proper VPN and/or Credentials to access. Please feel free to use bits and pieces of the code to make your own tools work, just make sure to remove any URLs to prevent errors. 
