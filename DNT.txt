@@ -1,55 +1,55 @@
-'Air Force Institute of Technology'
-'Arizona State University'
-'Baker College of Flint'
-'Bb University'
-'Behringer Harvard'
-'Bellevue University'
-'Best Deal Insurance'
-'Blackboard Coursesites End User Support'
-'Blackboard Learn For Salesforce'
-'Caesars Entertainment'
-'Charles Darwin University'
-'Charles Sturt University'
-'Curtin University'
-'Edge Hill University'
-'ERM Group Inc.'
-'Embry-Riddle Aeronautical University'
-'Endologix'
-'Fairfax County Public Schools'
-'George Mason University'
-'George Washington University'
-'INTI Universal Holdings Sdn Bhd'
-'Institute for Intergovernmental Research'
-'Ivy Tech Community College of Indiana'
-'James Cook University'
-'K12 Inc.'
-'Leiden University'
-'Living Social'
-'McGraw-Hill Companies'
-'McGraw-Hill Higher Education'
-'Ministerio de Defensa Nacional de Colombia'
-'Mississippi Virtual Community College'
-'Montgomery College '
-'Nexius Solutions Inc.'
-'PRIMEDIA'
-'Philadelphia College of Osteopathic Medicine'
-'RMIT University Australia'
-'Servicio Nacional de Aprendizaje (SENA)'
-'ShoreTel Inc.'
-'South Orange County Community College District'
-'Southern Cross University'
-'Strayer University'
-'Swinburne University of Technology'
-'Tarrant County College District'
-'THINK Education Services Pty Ltd'
-'Ultimate Medical Academy'
-'University of Groningen'
-'University of Leicester'
-'University of Manchester'
-'Universiteit Twente'
-'University of Western Sydney'
-'University of Westminster'
-'Utrecht University'
-'Vrije Universiteit Amsterdam'
-'Watson Pharmaceuticals'
-'Wolters Kluwer'
+Air Force Institute of Technology
+Arizona State University
+Baker College of Flint
+Bb University
+Behringer Harvard
+Bellevue University
+Best Deal Insurance
+Blackboard Coursesites End User Support
+Blackboard Learn For Salesforce
+Caesars Entertainment
+Charles Darwin University
+Charles Sturt University
+Curtin University
+Edge Hill University
+ERM Group Inc.
+Embry-Riddle Aeronautical University
+Endologix
+Fairfax County Public Schools
+George Mason University
+George Washington University
+INTI Universal Holdings Sdn Bhd
+Institute for Intergovernmental Research
+Ivy Tech Community College of Indiana
+James Cook University
+K12 Inc.
+Leiden University
+Living Social
+McGraw-Hill Companies
+McGraw-Hill Higher Education
+Ministerio de Defensa Nacional de Colombia
+Mississippi Virtual Community College
+Montgomery College 
+Nexius Solutions Inc.
+PRIMEDIA
+Philadelphia College of Osteopathic Medicine
+RMIT University Australia
+Servicio Nacional de Aprendizaje (SENA)
+ShoreTel Inc.
+South Orange County Community College District
+Southern Cross University
+Strayer University
+Swinburne University of Technology
+Tarrant County College District
+THINK Education Services Pty Ltd
+Ultimate Medical Academy
+University of Groningen
+University of Leicester
+University of Manchester
+Universiteit Twente
+University of Western Sydney
+University of Westminster
+Utrecht University
+Vrije Universiteit Amsterdam
+Watson Pharmaceuticals
+Wolters Kluwer
