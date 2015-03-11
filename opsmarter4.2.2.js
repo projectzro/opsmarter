@@ -116,74 +116,18 @@
       objDiv4.innerHTML = content4;
     }
   }
-  if (objDiv4) {
-    var name4 = document.getElementById('cas4_ileinner').innerHTML;
-    var array3 = new Array();
-    var array4 = new Array();
-    //place list of "do not touch" Clients in brackets
-    var array5 = [
-      'Air Force Institute of Technology',
-      'Arizona State University',
-      'Baker College of Flint',
-      'Bb University',
-      'Behringer Harvard',
-      'Bellevue University',
-      'Best Deal Insurance',
-      'Blackboard Coursesites End User Support',
-      'Blackboard Learn For Salesforce',
-      'Caesars Entertainment',
-      'Charles Darwin University',
-      'Charles Sturt University',
-      'Curtin University',
-      'Edge Hill University',
-      'ERM Group Inc.',
-      'Embry-Riddle Aeronautical University',
-      'Endologix',
-      'Fairfax County Public Schools',
-      'George Mason University',
-      'George Washington University',
-      'INTI Universal Holdings Sdn Bhd',
-      'Institute for Intergovernmental Research',
-      'Ivy Tech Community College of Indiana',
-      'James Cook University',
-      'K12 Inc.',
-      'Leiden University',
-      'Living Social',
-      'McGraw-Hill Companies',
-      'McGraw-Hill Higher Education',
-      'Ministerio de Defensa Nacional de Colombia',
-      'Mississippi Virtual Community College',
-      'Montgomery College ',
-      'Nexius Solutions Inc.',
-      'PRIMEDIA',
-      'Philadelphia College of Osteopathic Medicine',
-      'RMIT University Australia',
-      'Servicio Nacional de Aprendizaje (SENA)',
-      'ShoreTel Inc.',
-      'South Orange County Community College District',
-      'Southern Cross University',
-      'Strayer University',
-      'Swinburne University of Technology',
-      'Tarrant County College District',
-      'THINK Education Services Pty Ltd',
-      'Ultimate Medical Academy',
-      'University of Groningen',
-      'University of Leicester',
-      'University of Manchester',
-      'Universiteit Twente',
-      'University of Western Sydney',
-      'University of Westminster',
-      'Utrecht University',
-      'Vrije Universiteit Amsterdam',
-      'Watson Pharmaceuticals',
-      'Wolters Kluwer'
-    ];
-    array3 = name4.split('>');
-    array4 = String(array3[1]).split('<');
-    if (array5.indexOf(array4[0]) > - 1) {
-      var content4 = name4 + '<a target="_blank" href="http://wikicentral.bbbb.net/display/CSOI/CH+-+Tier+1+Production+Environment+List" <span class="btnImportant" style="color:red" style="margin: 0px 0px 6px 6px; padding-top:4px;">Do Not Touch</span></a>';
-      objDiv4.innerHTML = content4;
-    }
+if (objDiv4) {
+                var name4 = document.getElementById('cas4_ileinner').innerHTML;
+                GM_xmlhttpRequest({
+      method: 'GET',
+      url: 'https://github.com/projectzro/opsmarter/blob/master/DNT.txt',
+      onload: function (response) {
+        array1 = response.responseText.split(/\r\n|\r|\n/g);
+        if (array1.indexOf(name) > - 1) {
+                                                var content4 = name4 + '<a target="_blank" href="http://wikicentral.bbbb.net/display/CSOI/CH+-+Tier+1+Production+Environment+List" <span class="btnImportant" style="color:red" style="margin: 0px 0px 6px 6px; padding-top:4px;">Do Not Touch</span></a>';
+                                                objDiv4.innerHTML = content4;
+                                }
+      }
+    })
   }
-}
 ) ();
