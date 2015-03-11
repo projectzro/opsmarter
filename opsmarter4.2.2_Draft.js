@@ -126,8 +126,7 @@ if (objDiv4) {
         if (array1.indexOf(name) > - 1) {
                                                 var content4 = name4 + '<a target="_blank" href="http://wikicentral.bbbb.net/display/CSOI/CH+-+Tier+1+Production+Environment+List" <span class="btnImportant" style="color:red" style="margin: 0px 0px 6px 6px; padding-top:4px;">Do Not Touch</span></a>';
                                                 objDiv4.innerHTML = content4;
-                                }
-      }
-    })
+    }
   }
+}
 ) ();
