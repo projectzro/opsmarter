@@ -87,7 +87,7 @@
     array3 = name4.split('>');
     array4 = String(array3[1]).split('<');
     if (array5.indexOf(array4[0]) > - 1) {
-      var content4 = name4 + '<a target="_blank" href="http://wikicentral/display/MHINT/EMEA+Clients" <span class="btnImportant" style="color:red" style="margin: 0px 0px 6px 6px; padding-top:4px;">AMS Client</span></a>';
+      var content4 = name4 + '<a target="_blank" href="http://wikicentral/display/MHINT/EMEA+Clients" <span class="btnImportant" style="color:red" style="margin: 0px 0px 6px 6px; padding-top:4px;">EMEA Client</span></a>';
       objDiv4.innerHTML = content4;
     }
   }
@@ -117,17 +117,24 @@
     }
   }
 if (objDiv4) {
-                var name4 = document.getElementById('cas4_ileinner').innerHTML;
-                GM_xmlhttpRequest({
-      method: 'GET',
-      url: 'https://github.com/projectzro/opsmarter/blob/master/DNT.txt',
-      onload: function (response) {
-        array1 = response.responseText.split(/\r\n|\r|\n/g);
-        if (array1.indexOf(name) > - 1) {
-                                                var content4 = name4 + '<a target="_blank" href="http://wikicentral.bbbb.net/display/CSOI/CH+-+Tier+1+Production+Environment+List" <span class="btnImportant" style="color:red" style="margin: 0px 0px 6px 6px; padding-top:4px;">Do Not Touch</span></a>';
-                                                objDiv4.innerHTML = content4;
-                                }
-      }
-    })
-  }
-) ();
+  var name = document.getElementById('00N70000002jOAj_ileinner').innerHTML;
+  var name4 = document.getElementById('cas4_ileinner').innerHTML;
+  var array3 = new Array();
+  var array4 = new Array();
+  array3 = name.split('>');
+  array4 = String(array3[1]).split(' [');
+  
+  GM_xmlhttpRequest({
+                  method: 'GET',
+                  url: 'https://raw.githubusercontent.com/projectzro/opsmarter/master/DNT.txt',
+                  onload: function (response) {
+                    //array1 = response.responseText.split(/\r\n|\r|\n/g);
+                    var newArray = response.responseText.split('\n');
+					if (newArray.indexOf(array4[0]) > - 1) {
+                                                            var content4 = name4 + '<a target="_blank" href="http://wikicentral.bbbb.net/display/CSOI/SDM+-+Tier+1+Production+Environment+List" <span class="btnImportant" style="color:red" style="margin: 0px 0px 6px 6px; padding-top:4px;">Do Not Touch</span></a>';
+                                                            objDiv4.innerHTML = content4;
+                    }
+                  }
+                })
+}
+}) ();
