@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Opsmarter
 // @namespace       Opsmarter
-// @version         4.2.2
+// @version         4.2.3
 // @description     Adds opsmart links to useful places. Mike and Allen's version is the best!
 // @include         *://blackboard.my.salesforce.com/*
 // @grant           GM_xmlhttpRequest
