@@ -1,55 +1,61 @@
-Air Force Institute of Technology
-Arizona State University
-Baker College of Flint
-Bb University
-Behringer Harvard
-Bellevue University
-Best Deal Insurance
-Blackboard Coursesites End User Support
-Blackboard Learn For Salesforce
-Caesars Entertainment
-Charles Darwin University
-Charles Sturt University
-Curtin University
-Edge Hill University
-ERM Group Inc.
-Embry-Riddle Aeronautical University
-Endologix
-Fairfax County Public Schools
-George Mason University
-George Washington University
-INTI Universal Holdings Sdn Bhd
-Institute for Intergovernmental Research
-Ivy Tech Community College of Indiana
-James Cook University
-K12 Inc.
-Leiden University
-Living Social
-McGraw-Hill Companies
-McGraw-Hill Higher Education
-Ministerio de Defensa Nacional de Colombia
-Mississippi Virtual Community College
-Montgomery College 
-Nexius Solutions Inc.
-PRIMEDIA
-Philadelphia College of Osteopathic Medicine
-RMIT University Australia
-Servicio Nacional de Aprendizaje (SENA)
-ShoreTel Inc.
-South Orange County Community College District
-Southern Cross University
-Strayer University
-Swinburne University of Technology
-Tarrant County College District
-THINK Education Services Pty Ltd
-Ultimate Medical Academy
-University of Groningen
-University of Leicester
-University of Manchester
-Universiteit Twente
-University of Western Sydney
-University of Westminster
-Utrecht University
-Vrije Universiteit Amsterdam
-Watson Pharmaceuticals
-Wolters Kluwer
+185323
+101256
+100919
+777333
+444417
+100225
+505328
+106969
+347292
+342122
+112872
+116148
+305909
+309029
+438490
+100987
+444116
+199615
+200078
+105287
+317520
+511621
+511343
+102794
+100024
+304637
+312024
+113175
+100084
+341919
+101051
+332018
+344463
+155804
+100432
+511668
+312314
+100450
+155681
+147231
+347561
+100980
+100159
+100367
+100409
+300569
+506568
+337293
+100732
+160309
+301771
+314917
+301603
+100261
+101056
+100287
+156017
+309451
+100633
+317584
+347690
